@@ -2,7 +2,7 @@
 #app-mount .inline {
     background: transparent;
 }
-.username-1A8OIy, .markup-2BOw-j>div , .textAreaSlate-1ZzRVj, .markup-2BOw-j:not(.embedWrapper-lXpS3L) { 
+.username-1A8OIy/*, .markup-2BOw-j>div , .textAreaSlate-1ZzRVj, .markup-2BOw-j:not(.embedWrapper-lXpS3L)*/ { 
   /*Rainbow Wave*/
   background-image: linear-gradient(to right, rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
   animation: gradient-border 4s linear infinite;
