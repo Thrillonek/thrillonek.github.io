@@ -20,7 +20,22 @@
   }
 }
 
+body::before,
+body::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: -1;
+}
 body::before {
-  background: var(--background);
+	background-image: var(--bg);
+  background-color: var(--bg-color);
+}
+body::after {
+	backdrop-filter: blur(var(--backgroundblur));
 }
 
