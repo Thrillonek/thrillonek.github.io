@@ -19,3 +19,8 @@
     background-position: 100% 0;
   }
 }
+
+body::before {
+  background: url("https://cdn.discordapp.com/attachments/902217507128115260/902248854034980914/unknown.png");
+}
+
