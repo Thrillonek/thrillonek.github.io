@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body,														/* body														*/
+#app-mount .app-1q1i1E,										/* app					container							*/
+#app-mount .app-2rEoOp,										/* app					inner								*/
+#app-mount .loading-Ags1CY,									/* app					i18n loading						*/
+#app-mount .wrapper-1prNyd,									/* app					errorscreen							*/
+#app-mount .bg-h5JY_x,										/* app					background							*/
+#app-mount .layer-3QrUeG,									/* layer				container							*/
+#app-mount .container-3w7J-x,								/* channels				inner								*/
+#app-mount .privateChannels-1nO12o,							/* dmchannels												*/
+#app-mount .panels-j1Uci_ > *,								/* account/voice		inner								*/
+#app-mount .chat-3bRxxu,									/* chat					container							*/
+#app-mount .threadSidebar-1o3BTy,							/* chat					thread sidebar						*/
+#app-mount .wrapper-3vR61M,									/* chat					messages loading					*/
+#app-mount .noChannel-Z1DQK7,								/* nochannel												*/
+#app-mount .members-1998pB,									/* members													*/
+#app-mount .members-1998pB > div,							/* members				content								*/
+#app-mount .content-MLh4nU,									/* unavailable												*/
+#app-mount .container-1D34oG,								/* peoples													*/
+#app-mount .container-lRFx4q,								/* peoples				activity list						*/
+#app-mount .applicationStore-1pNvnv,						/* nitro													*/
+#app-mount .pageWrapper-1PgVDX,								/* guilddiscovery											*/
+#app-mount .pageWrapper-1x6lGh,								/* unihub													*/
+#app-mount .scrollerBase-289Jih,							/* scroller													*/
+#app-mount .scroller-2FKFPG,								/* scroller old												*/
+#app-mount .standardSidebarView-3F1I7i,						/* settings													*/
+#app-mount .contentRegion-3nDuYy {							/* settings				content								*/
+	background: transparent;
+}
+body::before,
+body::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: -1;
+}
+body::before {
+    background-image: var(--bg);
+    background-size: cover;
+    background-position: center;
+}
