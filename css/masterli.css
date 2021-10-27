@@ -81,3 +81,9 @@ body::before {
     background-size: cover;
     background-position: center;
 }
+.channelTextArea-rNsIhG {									/* textarea				channeltextarea						*/
+	background-color: transparent;
+}
+.scrollableContainer-2NUZem {								/* textarea				container							*/
+	background-color: rgba(var(--transparencycolor), .3);
+}
