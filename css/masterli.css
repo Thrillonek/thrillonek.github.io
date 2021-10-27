@@ -90,3 +90,108 @@ body::before {
 .form-2fGMdU::before {
 	display: none;
 }
+
+/* CALL */
+
+#app-mount .wrapper-3lJCnD {
+	z-index: 1002;
+}
+#app-mount .root-3JVdIJ {									/* popout				inner								*/
+	background-color: transparent;
+	border: none;
+}
+.root-3JVdIJ::before,
+.root-3JVdIJ::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.root-3JVdIJ::before {
+	background: var(--popout) var(--popoutposition)/var(--popoutsize);
+	background-attachment: fixed;
+}
+.root-3JVdIJ::after {
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25));
+	backdrop-filter: blur(var(--popoutblur));
+}
+
+#app-mount .wrapper-2qzCYF {								/* call					voice wrapper					*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.8));
+}
+#app-mount .root-217Brm {									/* call					root							*/
+	color: var(--header-primary);
+}
+.videoWrapper-2v09vt {										/* call					video wrapper					*/
+	background-color: rgba(var(--transparencycolor), .3);
+}
+.video-1FfuMD {												/* call					video							*/
+	background-color: transparent;
+}
+.tile-2naSqK,												/* call					user video voicechannel			*/
+.tile-2gi3tr {												/* call					user video dm					*/
+	background-color: rgba(var(--transparencycolor), .3);
+}
+.gradientContainer-10lXLB {									/* call					gradientcontainer				*/
+	display: none;
+}
+.participantsButton-KYW-IW {								/* call					participantsbutton				*/
+	background-color: rgba(0, 0, 0, .3);
+}
+.participantsButton-KYW-IW:hover {
+	background-color: rgba(0, 0, 0, .6);
+}
+.centerButton-3CaNcJ,
+.colorable-1bkp8v.primaryDark-3mSFDl {
+	background-color: rgba(var(--transparencycolor), .5);
+}
+.centerButton-3CaNcJ:hover,
+.colorable-1bkp8v.primaryDark-3mSFDl:hover {
+	background-color: rgb(var(--accentcolor));
+}
+.button-3HqqDX {
+	background-color: rgba(var(--transparencycolor), .4);
+}
+.button-3HqqDX:hover {
+	background-color: rgba(var(--transparencycolor), .6);
+}
+.controlButton-2MhVEL.leaveButton-2YnTyt:hover {
+	background-color: rgb(var(--dangercolor));
+}
+.regionSelectPopout-p9-0_W {
+	width: 170px;
+}
+
+.container-pTf0Ly {											/* call					podium wrapper					*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.8));
+}
+.callContainer-3UuV6S {										/* call					podium inner					*/
+	background-color: transparent;
+}
+.scroller-1SuHJo {											/* call					podium scroller					*/
+	background-color: transparent;
+}
+.container-2t1JyW {											/* call					podium info						*/
+	background-color: transparent;
+}
+.rowContainer-2tYerQ {										/* call					podium row						*/
+	background-color: transparent;
+}
+.participants-soO0aD {										/* call					podium participants				*/
+	background-color: transparent;
+}
+.tileContainer-BaRAZF:hover {								/* call					podium participant				*/
+	background-color: rgb(var(--accentcolor));
+}
+.container-1EOCj2 {											/* call					podium requests					*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.3));
+}
+.headerContainer-3Dbfbk {									/* call					podium requests header			*/
+	box-shadow: 0 1px 0 rgba(var(--transparencycolor), .2), 0 1.5px 0 rgba(var(--transparencycolor), .05), 0 2px 0 rgba(var(--transparencycolor), .05);
+}
