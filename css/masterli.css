@@ -33,31 +33,31 @@ body,														/* body														*/
 }
 #app-mount .sidebarRegion-VFTUkN,							/* settings				sidebar								*/
 #app-mount .sidebar-_0OpfR {								/* sidebarlist			sidebar								*/
-	background-color: rgba(var(--transparencycolor), calc(0.2 * (var(--transparencyalpha) / (var(--transparencyalpha) + 0.00000000000000000000001))));
+	background-color: rgba(var(--transparency-color), calc(0.2 * (var(--transparencyalpha) / (var(--transparencyalpha) + 0.00000000000000000000001))));
 }
 #app-mount {												/* app-mount												*/
-	background-color: rgba(var(--transparencycolor), var(--transparencyalpha));
+	background-color: rgba(var(--transparency-color), var(--transparencyalpha));
 }
 #app-mount .wrapper-3NnKdC {								/* guilds				container							*/
-	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 2));
+	background-color: rgba(var(--transparency-color), calc(var(--guild-channel-transparency) * 2));
 }
 #app-mount .sidebar-2K8pFh {								/* channels				container							*/
-	background-color: rgba(var(--transparencycolor), var(--guildchanneltransparency));
+	background-color: rgba(var(--transparency-color), var(--guild-channel-transparency));
 }
 #app-mount .panels-j1Uci_ {									/* account/voice		container							*/
-	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) / 1.5));
+	background-color: rgba(var(--transparency-color), calc(var(--guild-channel-transparency) / 1.5));
 }
 #app-mount .container-1r6BKw.themed-ANHk51 {				/* channelheader		container							*/
-	background-color: rgba(var(--transparencycolor), var(--guildchanneltransparency));
+	background-color: rgba(var(--transparency-color), var(--guild-channel-transparency));
 }
 #app-mount .membersWrap-2h-GB4 {							/* members				container							*/
-	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+	background-color: rgba(var(--transparency-color), var(--member-list-transparency));
 }
 #app-mount .tabBar-fg4VK9 {									/* members				tabbar								*/
-	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+	background-color: rgba(var(--transparency-color), var(--member-list-transparency));
 }
 #app-mount .nowPlayingColumn-2sl4cE {						/* peoples				now playing							*/
-	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+	background-color: rgba(var(--transparency-color), var(--member-list-transparency));
 }
 
 
@@ -85,7 +85,7 @@ body::before {
 	background-color: transparent;
 }
 .scrollableContainer-2NUZem {								/* textarea				container							*/
-	background-color: rgba(var(--transparencycolor), .3);
+	background-color: rgba(var(--transparency-color), .3);
 }
 .form-2fGMdU::before {
 	display: none;
@@ -114,29 +114,29 @@ body::before {
 	z-index: -1;
 }
 .root-3JVdIJ::before {
-	background: var(--popout) var(--popoutposition)/var(--popoutsize);
+	background: var(--popout) var(--popout-position)/var(--popout-size);
 	background-attachment: fixed;
 }
 .root-3JVdIJ::after {
-	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25));
-	backdrop-filter: blur(var(--popoutblur));
+	background-color: rgba(var(--transparency-color), calc(var(--transparency-alpha) + 0.25));
+	backdrop-filter: blur(var(--popout-blur));
 }
 
 #app-mount .wrapper-2qzCYF {								/* call					voice wrapper					*/
-	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.8));
+	background-color: rgba(var(--transparency-color), calc(var(--guild-channel-transparency) * 0.8));
 }
 #app-mount .root-217Brm {									/* call					root							*/
 	color: var(--header-primary);
 }
 .videoWrapper-2v09vt {										/* call					video wrapper					*/
-	background-color: rgba(var(--transparencycolor), .3);
+	background-color: rgba(var(--transparency-color), .3);
 }
 .video-1FfuMD {												/* call					video							*/
 	background-color: transparent;
 }
 .tile-2naSqK,												/* call					user video voicechannel			*/
 .tile-2gi3tr {												/* call					user video dm					*/
-	background-color: rgba(var(--transparencycolor), .3);
+	background-color: rgba(var(--transparency-color), .3);
 }
 .gradientContainer-10lXLB {									/* call					gradientcontainer				*/
 	display: none;
@@ -149,27 +149,27 @@ body::before {
 }
 .centerButton-3CaNcJ,
 .colorable-1bkp8v.primaryDark-3mSFDl {
-	background-color: rgba(var(--transparencycolor), .5);
+	background-color: rgba(var(--transparenc-ycolor), .5);
 }
 .centerButton-3CaNcJ:hover,
 .colorable-1bkp8v.primaryDark-3mSFDl:hover {
 	background-color: rgb(var(--accentcolor));
 }
 .button-3HqqDX {
-	background-color: rgba(var(--transparencycolor), .4);
+	background-color: rgba(var(--transparency-color), .4);
 }
 .button-3HqqDX:hover {
-	background-color: rgba(var(--transparencycolor), .6);
+	background-color: rgba(var(--transparency-color), .6);
 }
 .controlButton-2MhVEL.leaveButton-2YnTyt:hover {
-	background-color: rgb(var(--dangercolor));
+	background-color: rgb(var(--danger-color));
 }
 .regionSelectPopout-p9-0_W {
 	width: 170px;
 }
 
 .container-pTf0Ly {											/* call					podium wrapper					*/
-	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.8));
+	background-color: rgba(var(--transparency-color), calc(var(--guild-channel-transparency) * 0.8));
 }
 .callContainer-3UuV6S {										/* call					podium inner					*/
 	background-color: transparent;
@@ -187,11 +187,50 @@ body::before {
 	background-color: transparent;
 }
 .tileContainer-BaRAZF:hover {								/* call					podium participant				*/
-	background-color: rgb(var(--accentcolor));
+	background-color: rgb(var(--accent-color));
 }
 .container-1EOCj2 {											/* call					podium requests					*/
-	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 0.3));
+	background-color: rgba(var(--transparency-color), calc(var(--guild-channel-transparency) * 0.3));
 }
 .headerContainer-3Dbfbk {									/* call					podium requests header			*/
-	box-shadow: 0 1px 0 rgba(var(--transparencycolor), .2), 0 1.5px 0 rgba(var(--transparencycolor), .05), 0 2px 0 rgba(var(--transparencycolor), .05);
+	box-shadow: 0 1px 0 rgba(var(--transparency-color), .2), 0 1.5px 0 rgba(var(--transparency-color), .05), 0 2px 0 rgba(var(--transparency-color), .05);
+}
+
+/* SCROLL */
+
+::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+#app-mount .scroller-3vODG7::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+#app-mount .scroller--qpKGq::-webkit-scrollbar,
+#app-mount .scrollbar-3dvm_9::-webkit-scrollbar,
+#app-mount .scroller-2PSBSf::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+#app-mount ::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar-track,
+#app-mount ::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+	background: transparent !important;
+}
+::-webkit-scrollbar-thumb,
+#app-mount ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: none;
+	background-color: rgb(var(--accent-color)) !important;
+}
+.none-2Eo-qx::-webkit-scrollbar-corner,
+.none-2Eo-qx::-webkit-scrollbar-thumb,
+.none-2Eo-qx::-webkit-scrollbar-track,
+.none-2Eo-qx::-webkit-scrollbar {
+	display: none;
 }
