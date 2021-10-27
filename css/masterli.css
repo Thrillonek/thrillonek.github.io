@@ -28,6 +28,43 @@ body,														/* body														*/
 #app-mount .contentRegion-3nDuYy {							/* settings				content								*/
 	background: transparent;
 }
+#app-mount .scroller-2ZPeAD {								/* peoples				activity scroller					*/
+	border: none;
+}
+#app-mount .sidebarRegion-VFTUkN,							/* settings				sidebar								*/
+#app-mount .sidebar-_0OpfR {								/* sidebarlist			sidebar								*/
+	background-color: rgba(var(--transparencycolor), calc(0.2 * (var(--transparencyalpha) / (var(--transparencyalpha) + 0.00000000000000000000001))));
+}
+#app-mount {												/* app-mount												*/
+	background-color: rgba(var(--transparencycolor), var(--transparencyalpha));
+}
+#app-mount .wrapper-3NnKdC {								/* guilds				container							*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) * 2));
+}
+#app-mount .sidebar-2K8pFh {								/* channels				container							*/
+	background-color: rgba(var(--transparencycolor), var(--guildchanneltransparency));
+}
+#app-mount .panels-j1Uci_ {									/* account/voice		container							*/
+	background-color: rgba(var(--transparencycolor), calc(var(--guildchanneltransparency) / 1.5));
+}
+#app-mount .container-1r6BKw.themed-ANHk51 {				/* channelheader		container							*/
+	background-color: rgba(var(--transparencycolor), var(--guildchanneltransparency));
+}
+#app-mount .membersWrap-2h-GB4 {							/* members				container							*/
+	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+}
+#app-mount .tabBar-fg4VK9 {									/* members				tabbar								*/
+	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+}
+#app-mount .nowPlayingColumn-2sl4cE {						/* peoples				now playing							*/
+	background-color: rgba(var(--transparencycolor), var(--memberlisttransparency));
+}
+
+
+#app-mount .image-3zK3Wt {									/* app					errorscreen image					*/
+	background-image: url(https://discord.com/assets/e9baf4b505eb54129f832556ea16538e.svg);
+	opacity: 0.6;
+}
 body::before,
 body::after {
 	content: "";
