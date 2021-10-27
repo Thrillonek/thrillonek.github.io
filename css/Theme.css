@@ -34,8 +34,7 @@ body::after {
 body::before {
 	background-image: var(--bg);
   background-color: var(--bg-color);
-}
-body::after {
-	backdrop-filter: blur(var(--backgroundblur));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
